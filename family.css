@@ -1,0 +1,93 @@
+body
+    {
+         background-color:rgb(35, 87, 94);
+    } 
+    a:link
+    {
+        color: rgb(242, 244, 96);
+        background-color: whitesmoke;
+        text-decoration: none;
+        padding: 9px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:active
+    {
+        color: yellow;
+        background-color:whitesmoke;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+table{
+    background-color: papayawhip;
+
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.family .title::after{
+    content: "who with me";
+}
+.family .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.family .carousel .card:hover{
+    background: burlywood;
+}
+.family .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.family .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.family .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.family .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid black;
+    transition: all 0.3s ease;
+}
+.family .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid burlywood!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: burlywood!important;
+}

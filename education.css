@@ -1,0 +1,61 @@
+body
+    {
+         background-color:rgb(35, 87, 94);
+    } 
+    a:link
+    {
+        color: rgb(242, 244, 96);
+        background-color: floralwhite;
+        text-decoration: none;
+        padding: 9px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:active
+    {
+        color: yellow;
+        background-color:fuchsia;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+	table{
+		background-color: yellowgreen;
+	
+		margin: 0 auto;
+		font-size: 22px;
+	}
+
+
+
+#education h1{
+    margin: 60px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: peachpuff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color: brown;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.box p{
+    color: black;
+    font-size: 1.1rem;
+}

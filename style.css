@@ -1,0 +1,58 @@
+body
+    {
+         background-color:rgb(35, 87, 94);
+    } 
+    a:link
+    {
+        color: rgb(242, 244, 96);
+        background-color: whitesmoke;
+        text-decoration: none;
+        padding: 9px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a:active
+    {
+        color: yellow;
+        background-color:whitesmoke;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+table{
+    background-color: papayawhip;
+
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent
+}
+#home ::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(image/jerin.jpg) no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.heading{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale(1,1,3);
+}
